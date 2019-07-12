@@ -1,0 +1,4 @@
+com\caojian\spring\beans\Person.class
+com\caojian\spring\config\SpringConfiguration.class
+com\caojian\spring\App.class
+com\caojian\spring\beans\Test.class

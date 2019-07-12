@@ -1,0 +1,76 @@
+2019-07-04 13:57:39 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 13:57:39 CST 2019]; root of context hierarchy
+2019-07-04 13:57:39 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 13:57:39 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 13:57:40 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 13:57:54 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 13:57:39 CST 2019]; root of context hierarchy
+2019-07-04 13:57:54 [ INFO] (DruidDataSource.java:1447) - {dataSource-1} closed
+2019-07-04 19:07:32 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:07:32 CST 2019]; root of context hierarchy
+2019-07-04 19:07:33 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:07:33 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:07:33 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:07:34 [ WARN] (AbstractApplicationContext.java:551) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.caojian.spring.jdbc.DaoTest] for bean with name 'daoTest' defined in class path resource [spring/spring-jdbc.xml]; nested exception is java.lang.ClassNotFoundException: com.caojian.spring.jdbc.DaoTest
+2019-07-04 19:10:19 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:10:19 CST 2019]; root of context hierarchy
+2019-07-04 19:10:19 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:10:19 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:10:19 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:10:20 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:10:21 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-07-04 19:10:21 [ INFO] (SQLErrorCodesFactory.java:127) - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-07-04 19:11:04 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:11:04 CST 2019]; root of context hierarchy
+2019-07-04 19:11:05 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:11:05 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:11:05 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:11:06 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:11:06 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:11:04 CST 2019]; root of context hierarchy
+2019-07-04 19:11:06 [ INFO] (DruidDataSource.java:1447) - {dataSource-1} closed
+2019-07-04 19:14:02 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:14:02 CST 2019]; root of context hierarchy
+2019-07-04 19:14:02 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:14:02 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:14:02 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:14:04 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:16:05 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:16:05 CST 2019]; root of context hierarchy
+2019-07-04 19:16:05 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:16:05 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:16:05 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:16:07 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:16:07 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-07-04 19:16:07 [ INFO] (SQLErrorCodesFactory.java:127) - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-07-04 19:17:37 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:17:37 CST 2019]; root of context hierarchy
+2019-07-04 19:17:37 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:17:38 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:17:38 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:17:39 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:18:34 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:18:34 CST 2019]; root of context hierarchy
+2019-07-04 19:18:34 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:18:34 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:18:34 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:18:35 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:30:29 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:30:29 CST 2019]; root of context hierarchy
+2019-07-04 19:30:29 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:30:29 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:30:29 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:30:30 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:31:09 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:31:09 CST 2019]; root of context hierarchy
+2019-07-04 19:31:09 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:31:09 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:31:09 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:31:10 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:31:10 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-07-04 19:31:10 [ INFO] (SQLErrorCodesFactory.java:127) - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-07-04 19:31:50 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:31:50 CST 2019]; root of context hierarchy
+2019-07-04 19:31:50 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:31:50 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:31:50 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:31:51 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:31:51 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:31:50 CST 2019]; root of context hierarchy
+2019-07-04 19:31:51 [ INFO] (DruidDataSource.java:1447) - {dataSource-1} closed
+2019-07-04 19:32:25 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:32:25 CST 2019]; root of context hierarchy
+2019-07-04 19:32:25 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:32:26 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:32:26 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:32:26 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 19:33:49 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 19:33:49 CST 2019]; root of context hierarchy
+2019-07-04 19:33:49 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 19:33:50 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 19:33:50 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-transaction.xml]
+2019-07-04 19:33:51 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited

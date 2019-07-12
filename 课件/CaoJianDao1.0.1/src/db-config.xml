@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasource-config>
+	<connection-info>
+		<!-- connection-type:Please use "dbcp" or "jdbc" default:"jdbc" -->
+		<connection-type>dbcp</connection-type>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<db-url>jdbc:mysql://localhost:3306/iwf</db-url>
+		<user-name>root</user-name>
+		<pass-word>caojian</pass-word>
+		<show-sql>true</show-sql>
+	</connection-info>
+	<pool-info>
+		<initial-size>5</initial-size>
+		<max-active>100</max-active>
+		<max-idle>30</max-idle>
+		<min-idle>3</min-idle>
+		<max-wait>1000</max-wait>
+		<remove-abandoned>true</remove-abandoned>
+		<remove-abandoned-timeout>100</remove-abandoned-timeout>
+		<log-abandoned>true</log-abandoned>
+	</pool-info>
+</datasource-config>

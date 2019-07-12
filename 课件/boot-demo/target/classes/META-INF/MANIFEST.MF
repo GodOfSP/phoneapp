@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: CaoJian
+Build-Jdk: 10.0.1
+Implementation-Title: boot-demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.caojian
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: https://projects.spring.io/spring-boot/boot-demo/
+Created-By: Maven Integration for Eclipse
+

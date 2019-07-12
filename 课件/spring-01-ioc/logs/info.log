@@ -1,0 +1,23 @@
+2019-07-08 20:15:20 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:15:20 CST 2019]; root of context hierarchy
+2019-07-08 20:15:20 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [beans.xml]
+2019-07-08 20:15:24 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:15:20 CST 2019]; root of context hierarchy
+2019-07-08 20:18:35 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:18:35 CST 2019]; root of context hierarchy
+2019-07-08 20:18:35 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [beans.xml]
+2019-07-08 20:18:39 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:18:35 CST 2019]; root of context hierarchy
+2019-07-08 20:19:26 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:19:26 CST 2019]; root of context hierarchy
+2019-07-08 20:19:26 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [beans.xml]
+2019-07-08 20:19:31 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:19:26 CST 2019]; root of context hierarchy
+2019-07-08 20:23:43 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:23:43 CST 2019]; root of context hierarchy
+2019-07-08 20:23:43 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [beans.xml]
+2019-07-08 20:23:48 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:23:43 CST 2019]; root of context hierarchy
+2019-07-08 20:26:10 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:26:10 CST 2019]; root of context hierarchy
+2019-07-08 20:26:10 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [beans.xml]
+2019-07-08 20:26:18 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:26:10 CST 2019]; root of context hierarchy
+2019-07-08 20:26:36 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:26:36 CST 2019]; root of context hierarchy
+2019-07-08 20:26:36 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [beans.xml]
+2019-07-08 20:26:39 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:26:36 CST 2019]; root of context hierarchy
+2019-07-08 20:26:53 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:26:53 CST 2019]; root of context hierarchy
+2019-07-08 20:26:53 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [beans.xml]
+2019-07-08 20:26:57 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.support.ClassPathXmlApplicationContext@61e717c2: startup date [Mon Jul 08 20:26:53 CST 2019]; root of context hierarchy
+2019-07-08 20:32:22 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3581c5f3: startup date [Mon Jul 08 20:32:22 CST 2019]; root of context hierarchy
+2019-07-08 20:32:23 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3581c5f3: startup date [Mon Jul 08 20:32:22 CST 2019]; root of context hierarchy

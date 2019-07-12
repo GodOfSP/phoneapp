@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"    
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+    xmlns:p="http://www.springframework.org/schema/p"    
+    xmlns:mvc="http://www.springframework.org/schema/mvc"    
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop" 
+	xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:util="http://www.springframework.org/schema/util"    
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd    
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd    
+            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">   
+	
+	<!-- IOC自动扫包 -->
+	<context:component-scan base-package="com.caojian" />
+	<!-- 使用AOP注解 -->
+    <aop:aspectj-autoproxy />
+    
+    
+    <aop:config>
+      <!-- 切面 -->
+      <aop:aspect id="xmlAPC" ref="xmlCfgAspect">
+      	
+      	<!-- 切点 -->
+        <aop:pointcut id="allMethod" expression="execution(* com.caojian.spring.beans.*.*(..))"/>
+        <aop:pointcut id="allSaveMethod" expression="execution(* com.caojian.spring.beans.*.save*(..))"/>
+        
+        <!-- 关联切点 和 处理方法 -->
+        <aop:before pointcut-ref="allMethod" method="before"/>
+        <aop:after pointcut-ref="allMethod" method="after"/>
+        
+        <aop:after-returning pointcut-ref="allSaveMethod" returning="result" method="afterReturn"/>
+        <aop:after-throwing pointcut-ref="allSaveMethod" throwing="exception" method="afterException"/>
+        
+      </aop:aspect>
+    </aop:config>
+    
+    
+    <!-- 注入业务类 -->
+    <bean id="xmlCfgService" class="com.caojian.spring.beans.XmlCfgService" />
+    
+    <!-- 注入切面类 -->
+    <bean id="xmlCfgAspect" class="com.caojian.spring.aspect.XmlCfgAspect" />
+
+</beans>

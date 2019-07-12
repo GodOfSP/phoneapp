@@ -1,0 +1,65 @@
+****************************开源小组件CaoJianDAO******************************
+本组件为本人学习研究之产物，可用于小型项目或初学者学习之用
+
+主要实现了对数据库的基本访问，包括oracle，mysql数据库的分页查询
+
+使用本组件需要配置db-config.xml（见根目录下）文件并放到src目录下,以及加入lib目录下的所有jar包到你的工程
+
+也别忘了加入数据库驱动jar包哦！
+
+src\com\caojian\dao\test目录下的类为测试类，你可以参照这里的类来了解本组件如何使用
+
+另外你也可以查JavaDoc
+
+希望能给各位朋友带来帮组 如果觉得我的代码有不合适的地方非常欢迎你与我联系，我们一起探讨改进
+谢谢！！！
+
+我的QQ：42623588
+Email：caojian-ease@163.com
+
+db-config.xml详解
+<datasource-config>
+	<!-- 链接基本信息 -->
+	<connection-info>
+		<!-- 使用到数据库的链接类型：主要提供了jdbc和dbcp两种 -->
+		<connection-type>dbcp</connection-type>
+
+		<!-- 以下四个不用我说了吧 -->
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<db-url>jdbc:mysql://localhost:3306/iwf</db-url>
+		<user-name>root</user-name>
+		<pass-word>caojian</pass-word>
+
+		<!-- 是否打印sql语句 -->
+		<show-sql>true</show-sql>
+	</connection-info>
+
+	<!-- 连接池配置 -->
+	<pool-info>
+		<!-- 初始连接数 -->
+		<initial-size>5</initial-size>
+	
+		<!-- 最大活跃链接数 -->
+		<max-active>100</max-active>
+
+		<!-- 最大闲置连接数 -->
+		<max-idle>30</max-idle>
+
+		<!-- 最小闲置连接数 -->
+		<min-idle>3</min-idle>
+
+		<!-- 最大等待时间:当没有可用连接时,连接池等待连接被归还的最大时间，单位：毫秒 -->
+		<max-wait>1000</max-wait>
+
+		<!-- 标记是否删除泄露的连接,如果他们超过了removeAbandonedTimout的限制.如果设置为true -->
+		<remove-abandoned>true</remove-abandoned>
+
+		<!-- 泄露的连接可以被删除的超时值, 单位：秒 -->
+		<remove-abandoned-timeout>100</remove-abandoned-timeout>
+
+		<!-- 标记当Statement或连接被泄露时是否打印程序的stack traces日志 -->
+		<log-abandoned>true</log-abandoned>
+	</pool-info>
+</datasource-config>
+****************************开源小组件CaoJianDAO******************************
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>jee01</display-name>
+  
+  
+  <listener>
+  	<listener-class>com.yuanben.jee.listener.AttributeListener</listener-class>
+  </listener>
+  <listener>
+	<listener-class>com.yuanben.jee.listener.ScopeListener</listener-class>
+  </listener>
+  
+  
+  <servlet>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>com.yuanben.jee.controller.RegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ApiServlet</servlet-name>
+    <servlet-class>com.yuanben.jee.controller.ApiServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/regist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApiServlet</servlet-name>
+    <url-pattern>/api</url-pattern>
+  </servlet-mapping>
+  
+  
+  <filter>
+  	<filter-name>EncodingFilter</filter-name>
+  	<filter-class>com.yuanben.jee.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>EncodingFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <session-config>
+  	<session-timeout>60</session-timeout>
+  </session-config>
+  
+  
+</web-app>

@@ -1,0 +1,8 @@
+2019-07-04 13:57:39 [ INFO] (AbstractApplicationContext.java:583) - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 13:57:39 CST 2019]; root of context hierarchy
+2019-07-04 13:57:39 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [application.xml]
+2019-07-04 13:57:39 [ INFO] (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml]
+2019-07-04 13:57:40 [DEBUG] (App.java:35) - SpringContext启动成功！
+2019-07-04 13:57:40 [ INFO] (DruidDataSource.java:722) - {dataSource-1} inited
+2019-07-04 13:57:54 [ INFO] (AbstractApplicationContext.java:984) - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d82c5f3: startup date [Thu Jul 04 13:57:39 CST 2019]; root of context hierarchy
+2019-07-04 13:57:54 [ INFO] (DruidDataSource.java:1447) - {dataSource-1} closed
+2019-07-04 13:57:54 [DEBUG] (App.java:42) - SpringContext已关闭！

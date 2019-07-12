@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	
+	<!-- 工程名称 -->
+	<property name="APP_NAME" value="boot-demo" />
+	<!-- 日志输出格式 -->
+	<property name="PATTERN" value="%-12(%d{yyyy-MM-dd HH:mm:ss.SSS}) |-%-5level [%thread] %c [%L] -| %msg%n" />
+	<!-- test文件路径 -->
+	<property name="TEST_FILE_PATH" value="/logs/${APP_NAME}" />
+	<!-- pro文件路径 -->
+	<property name="PROD_FILE_PATH" value="/logs/${APP_NAME}" />
+	
+	<!-- 开发环境 -->
+	<springProfile name="dev">
+		<!-- 控制台输出日志 -->
+		<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+			<encoder>
+				<pattern>${PATTERN}</pattern>
+			</encoder>
+		</appender>
+		
+		<!-- 只允许com.caojian包下的debug日志输出 -->
+		<logger name="com.caojian" level="debug"/>
+		
+		<!-- 日志级别 -->
+		<root level="info">
+			<appender-ref ref="CONSOLE" />
+		</root>
+	</springProfile>
+	
+	<!-- 测试环境 -->
+	<springProfile name="test">
+		<appender name="TEST_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<!-- 日志文件名称 -->
+			<file>${TEST_FILE_PATH}/${APP_NAME}.log</file>
+		
+			<!-- 按天来回滚，如果需要按小时来回滚，则设置fileNamePattern为{yyyy-MM-dd_HH} -->
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<!-- 文件名称滚动规则 -->
+				<fileNamePattern>${TEST_FILE_PATH}/${APP_NAME}-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+				<!-- 文件最大保存历史天数 -->
+				<maxHistory>15</maxHistory>
+				<!-- 按时间回滚的同时，按文件大小来回滚 -->  
+				<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">  
+                	<maxFileSize>10MB</maxFileSize>  
+            	</timeBasedFileNamingAndTriggeringPolicy>				
+			</rollingPolicy>
+			
+			<!-- 超过10MB时，触发滚动策略 
+			<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">   
+		      <maxFileSize>10MB</maxFileSize>   
+		    </triggeringPolicy> -->		
+			
+			<!-- 日志格式 -->
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<pattern>${PATTERN}</pattern>
+			</layout>
+		</appender>
+		
+		<!-- 只允许com.cjboot包下的debug日志输出 -->
+		<logger name="com.cjboot" level="debug"/>
+		
+		<!-- 日志级别 -->
+		<root level="info">
+			<appender-ref ref="TEST_FILE" />
+		</root>
+	</springProfile>
+	
+	<!-- 生产环境 -->
+	<springProfile name="prod">
+		<appender name="PROD_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<!-- 日志文件名称 -->
+			<file>${PROD_FILE_PATH}/${APP_NAME}.log</file>
+			
+			<!-- 按天来回滚，如果需要按小时来回滚，则设置fileNamePattern为{yyyy-MM-dd_HH} -->
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<!-- 文件名称滚动规则 -->
+				<fileNamePattern>${PROD_FILE_PATH}/${APP_NAME}-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+				<!-- 文件最大保存历史天数 -->
+				<maxHistory>15</maxHistory>
+				<!-- 按时间回滚的同时，按文件大小来回滚 -->  
+				<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">  
+                	<maxFileSize>10MB</maxFileSize>  
+            	</timeBasedFileNamingAndTriggeringPolicy>				
+			</rollingPolicy>
+			
+			<!-- 超过10MB时，触发滚动策略 
+			<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">   
+		      <maxFileSize>10MB</maxFileSize>   
+		    </triggeringPolicy> -->		
+			
+			<!-- 日志格式 -->
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<pattern>${PATTERN}</pattern>
+			</layout>
+		</appender>
+		
+		<!-- 只允许com.cjboot包下的debug日志输出 -->
+		<logger name="com.cjboot" level="debug"/>
+		
+		<!-- 日志级别 -->
+		<root level="info">
+			<appender-ref ref="PROD_FILE" />
+		</root>
+	</springProfile>
+	
+</configuration>

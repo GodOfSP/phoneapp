@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"    
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+    xmlns:p="http://www.springframework.org/schema/p"    
+    xmlns:mvc="http://www.springframework.org/schema/mvc"    
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop" 
+	xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:util="http://www.springframework.org/schema/util"    
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd    
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd    
+            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">   
+	
+	
+	<!-- 
+	传播特性                                                               值         解释
+	PROPAGATION_REQUIRED       0        支持当前事务环境，如果没有则创建一个
+    PROPAGATION_SUPPORTS       1   支持当前事务，没有不创建事务
+    PROPAGATION_MANDATORY      2   支持当前事务，没有则报错
+    PROPAGATION_REQUIRES_NEW   3   挂起当前事务，新建一个事务
+    PROPAGATION_NOT_SUPPORTED  4   如果存在事务则挂起
+    PROPAGATION_NEVER          5   如果存在事务则报错
+    PROPAGATION_NESTED         6   开启一个嵌套事务，很多数据库都不支持
+	 -->
+	 
+	 <!-- 
+	 隔离级别                                                                   值                                          解释
+    ISOLATION_DEFAULT          -1             使用数据源提供的隔离级别
+    ISOLATION_READ_UNCOMMITTED  1             允许一个事务读取另一个事务还没提交的数据
+    ISOLATION_READ_COMMITTED    2             禁止脏读
+    ISOLATION_REPEATABLE_READ   4             禁止不可重读
+    ISOLATION_SERIALIZABLE      8             禁止幻读
+	  -->
+	
+    <!-- 声明式事务配置 -->
+	<bean id="transactionManager" name="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager"
+		scope="singleton">
+		<description>Spring 事务管理器配置</description>
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<!-- 启用事物管理器的注解 
+	注解事务的启用方式有两种：
+	1:在有@Configuration的类上使用@EnableTransactionManagement注解
+	2:在xml中使用tx:annotation-driven
+ 	添加事务注解:@Transactional
+    *1.使用 propagation 指定事务的传播行为, 即当前的事务方法被另外一个事务方法调用时如何使用事务, 默认取值为 REQUIRED, 即使用调用方法的事务,REQUIRES_NEW: 事务自己的事务, 调用的事务方法的事务被挂起. 
+    *2.使用 isolation 指定事务的隔离级别, 最常用的取值为 DEFAULT
+    *3.默认情况下 Spring 的声明式事务对所有的运行时异常进行回滚. 也可以通过对应的属性进行设置. 通常情况下去默认值即可. 
+    *4.使用 readOnly 指定事务是否为只读. 表示这个事务只读取数据但不更新数据,这样可以帮助数据库引擎优化事务. 若真的事一个只读取数据库值的方法, 应设置 readOnly=true
+    *5.使用 timeout 指定强制回滚之前事务可以占用的时间.  
+    *@Transactional(propagation=Propagation.REQUIRES_NEW,
+            isolation=Isolation.READ_COMMITTED,
+            noRollbackFor={UserAccountException.class},
+            readOnly=false,
+            timeout=3)-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+	
+	<!-- 配置事务传播特性 
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="save*" propagation="REQUIRED"/>
+			<tx:method name="update*" propagation="REQUIRED"/>
+			<tx:method name="delete*" propagation="REQUIRED"/>
+			<tx:method name="*" read-only="true"/>
+		</tx:attributes>
+	</tx:advice>-->
+
+	<!-- Aop 代理事务配置
+	<aop:config>
+    	<aop:pointcut id="allServiceMethod" expression="execution(* com.caojian.spring.service.*.*(..))"/>
+    	
+	    <aop:advisor advice-ref="txAdvice" pointcut-ref="allServiceMethod"/>
+	</aop:config> -->
+	
+</beans>

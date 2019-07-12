@@ -1,0 +1,116 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.caojian</groupId>
+  <artifactId>spring-02-aop</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>spring-01</name>
+  <url>http://maven.apache.org</url>
+
+    <!-- 全局变量 -->
+    <properties>
+        <!-- 文件拷贝时的编码 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- 编译时的编码 -->
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+
+        <!-- 编译的JDK版本 -->
+        <maven.compile.source>1.8</maven.compile.source>
+        <maven.compile.target>1.8</maven.compile.target>
+        
+        <!-- 自定义配置 -->
+        <spring.version>4.3.15.RELEASE</spring.version>
+        <slf4j.version>1.7.6</slf4j.version>
+        
+    </properties>
+
+  <dependencies>
+  
+  	<!-- spring-context -->
+	<dependency>
+	  <groupId>org.springframework</groupId>
+	  <artifactId>spring-context</artifactId>
+	  <version>${spring.version}</version>
+	</dependency>  
+	
+	<!-- Spring-AOP -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aop</artifactId>
+        <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-tx</artifactId>
+        <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjweaver</artifactId>
+        <version>1.8.6</version>
+    </dependency>	
+	
+	<!-- log4j slf4j -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>${slf4j.version}</version>
+    </dependency>
+  
+  </dependencies>
+  
+  <build>
+  
+  	<plugins>
+  	
+         <!-- 指定jdk版本 -->
+         <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-compiler-plugin</artifactId>
+             <version>3.1</version>
+             <configuration>
+                 <source>${maven.compile.source}</source>
+                 <target>${maven.compile.target}</target>
+                 <encoding>UTF-8</encoding>
+             </configuration>
+         </plugin>
+
+         <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-resources-plugin</artifactId>
+             <version>2.7</version>
+             <configuration>
+                 <!-- 指定编码格式，否则在DOS下运行mvn命令时当发生文件资源copy时将使用系统默认使用GBK编码 -->
+                 <encoding>UTF-8</encoding>
+             </configuration>
+         </plugin>
+
+         <!-- 打包时包含源代码 -->
+         <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-source-plugin</artifactId>
+             <version>3.0.0</version>
+             <configuration>
+                 <attach>true</attach>
+             </configuration>
+             <executions>
+                 <execution>
+                     <phase>compile</phase>
+                     <goals>
+                         <goal>jar-no-fork</goal>
+                     </goals>
+                 </execution>
+             </executions>
+         </plugin>
+  		
+  	</plugins>
+  
+  </build>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+	<bean id="test" class="com.caojian.spring.beans.Test" scope="singleton" 
+		destroy-method="destory" lazy-init="true" init-method="init">
+		<property name="name" value="曹建" />
+		<property name="age" value="33" />
+		<property name="phone" value="13402874534" />
+		<property name="address" value="成都天府新区" />
+	</bean>
+	
+	<bean id="person" class="com.caojian.spring.beans.Person"/>
+
+
+</beans>
