@@ -2,8 +2,10 @@ package com.ybveg.ls.phoneapp.controller;
 
 
 
+import com.ybveg.ls.phoneapp.module.dao.impl.delContrastDaoImpl;
 import com.ybveg.ls.phoneapp.module.pojo.BaseResult;
 import com.ybveg.ls.phoneapp.module.service.delContastService;
+import com.ybveg.ls.phoneapp.module.service.impl.delContrastServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,7 +25,7 @@ import java.io.PrintWriter;
 public class DelContrastServlet {
 
     @Autowired
-    private delContastService delContastService ;
+    private delContrastServiceImpl delContastService ;
     @Autowired
     BaseResult baseResult;
 

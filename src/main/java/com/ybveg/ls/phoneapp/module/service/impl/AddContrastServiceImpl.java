@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class AddContrastServiceImpl implements AddContrastService {
 
     @Autowired
-    private AddContrastDao addContrastDao;
+    private AddContrastDaoImpl addContrastDao;
     @Override
     public int addContrast(String userId, String phoneId) throws Exception {
         return addContrastDao.addContrast(userId,phoneId);

@@ -2,6 +2,7 @@ package com.ybveg.ls.phoneapp.controller;
 
 import com.ybveg.ls.phoneapp.module.pojo.BaseResult;
 import com.ybveg.ls.phoneapp.module.service.getContrastListService;
+import com.ybveg.ls.phoneapp.module.service.impl.getContrastListServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,12 +22,12 @@ import java.io.PrintWriter;
 public class GetContrastListServlet {
 
     @Autowired
-    private getContrastListService contrastListService;
+    private getContrastListServiceImpl contrastListService;
     @Autowired
     private BaseResult baseResult;
 
     @PostMapping("/getContrastList")
-    private void  doAll(String userId)  {
+    private BaseResult  doAll(String userId)  {
 
         baseResult.setMsg("查询成功");
         baseResult.setCode("200");
@@ -35,5 +36,7 @@ public class GetContrastListServlet {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        return baseResult;
     }
 }

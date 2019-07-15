@@ -4,6 +4,7 @@ package com.ybveg.ls.phoneapp.controller;
 import com.ybveg.ls.phoneapp.module.pojo.BaseResult;
 import com.ybveg.ls.phoneapp.module.pojo.User;
 import com.ybveg.ls.phoneapp.module.service.UserService;
+import com.ybveg.ls.phoneapp.module.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,12 +21,11 @@ import java.io.PrintWriter;
  */
 
 @RestController
-
-public class RegistServlet extends HttpServlet {
+public class RegistServlet {
 
     private static final long serialVersionUID = 1L;
     @Autowired
-    UserService service;
+    UserServiceImpl service;
     @Autowired
     BaseResult baseResult;
 

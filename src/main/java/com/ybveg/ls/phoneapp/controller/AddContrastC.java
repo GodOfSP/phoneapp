@@ -28,7 +28,7 @@ import java.io.PrintWriter;
 public class AddContrastC {
 
     @Autowired
-    private AddContrastService contrastService;
+    private AddContrastServiceImpl contrastService;
 
     @Autowired
     BaseResult baseResult;

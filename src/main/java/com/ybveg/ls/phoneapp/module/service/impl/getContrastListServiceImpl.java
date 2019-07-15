@@ -15,7 +15,7 @@ import java.util.Map;
 public class getContrastListServiceImpl implements getContrastListService {
 
     @Autowired
-    private getContrastListDao contrastListDao;
+    private getContrastListDaoImpl contrastListDao;
 
     @Override
     public List<Map<String, Object>> getContrastList(String userId) throws Exception {

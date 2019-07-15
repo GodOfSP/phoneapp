@@ -2,448 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bd1a83d-e3ba-4ad0-b2f7-e455ce7a8e50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/allclasses-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/allclasses-noframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/BaseDao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/class-use/BaseDao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/impl/BaseDaoImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/impl/class-use/BaseDaoImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/impl/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/impl/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/impl/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/impl/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/basedao/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/DbConfigBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/DbcpBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/JdbcBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/class-use/DbConfigBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/class-use/DbcpBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/class-use/JdbcBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/bean/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/util/QueryUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/util/XMLUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/util/class-use/QueryUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/util/class-use/XMLUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/util/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/util/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/util/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/com/caojian/dao/util/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/overview-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/package-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/resources/inherit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/JavaDoc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/db-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/lib/CaoJianDAO.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/lib/commons-dbcp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/lib/commons-pool.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/lib/jaxen-1.1-beta-7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/basedao/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/basedao/impl/BaseDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/bean/DbConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/bean/DbcpBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/bean/JdbcBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/test/TestThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/test/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/util/QueryUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/com/caojian/dao/util/XMLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/src/db-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/CaoJianDao1.0.1/请先读我.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/MobileFile/Image/JEU5SHS$NWMZ)X`KHXTO$BY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/MobileFile/数据库作业.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/NOTICE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/bin/m2.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/bin/mvn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/bin/mvn.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/bin/mvnDebug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/bin/mvnDebug.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/bin/mvnyjp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/conf/logging/simplelogger.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/conf/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/conf/toolchains.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-api-1.0.2.v20150114.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-connector-basic-1.0.2.v20150114.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-connector-basic.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-impl-1.0.2.v20150114.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-impl.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-spi-1.0.2.v20150114.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-spi.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-transport-wagon-1.0.2.v20150114.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-transport-wagon.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-util-1.0.2.v20150114.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aether-util.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/cdi-api-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/cdi-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/commons-cli-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/commons-lang-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/commons-lang3-3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/commons-lang3.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/ext/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/guava-18.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/guice-4.0-no_aop.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/javax.inject-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/jsoup-1.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/jsoup.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/jsr250-api-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/jsr250-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-aether-provider-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-aether-provider.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-artifact-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-artifact.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-builder-support-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-builder-support.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-compat-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-compat.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-core-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-core.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-embedder-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-embedder.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-model-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-model-builder-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-model-builder.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-model.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-plugin-api-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-plugin-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-repository-metadata-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-repository-metadata.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-settings-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-settings-builder-3.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-settings-builder.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/maven-settings.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/org.eclipse.sisu.inject-0.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/org.eclipse.sisu.inject.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/org.eclipse.sisu.plexus-0.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/org.eclipse.sisu.plexus.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/plexus-cipher-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/plexus-cipher.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/plexus-component-annotations-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/plexus-interpolation-1.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/plexus-sec-dispatcher-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/plexus-sec-dispatcher.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/plexus-utils-3.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/slf4j-api-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/slf4j-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/slf4j-simple-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/slf4j-simple.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/wagon-file-2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/wagon-file.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/wagon-http-2.10-shaded.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/wagon-http-shared-2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/wagon-http-shared.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/wagon-http.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/wagon-provider-api-2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/apache-maven-3.3.9/lib/wagon-provider-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/.settings/org.springframework.ide.eclipse.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/java/com/caojian/bootdemo/BootDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/java/com/caojian/bootdemo/config/CustomWebMvcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/java/com/caojian/bootdemo/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/java/com/caojian/bootdemo/dao/TestDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/java/com/caojian/bootdemo/dao/impl/TestDaoImol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/java/com/caojian/bootdemo/interceptor/TestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/java/com/caojian/bootdemo/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/java/com/caojian/bootdemo/service/impl/TestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/resources/config/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/resources/config/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/resources/config/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/resources/config/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/resources/templates/html_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/resources/templates/pages/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/src/main/resources/配置参考.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/META-INF/maven/com.caojian/boot-demo/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/META-INF/maven/com.caojian/boot-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/com/caojian/bootdemo/BootDemoApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/com/caojian/bootdemo/config/CustomWebMvcConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/com/caojian/bootdemo/controller/TestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/com/caojian/bootdemo/dao/TestDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/com/caojian/bootdemo/dao/impl/TestDaoImol.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/com/caojian/bootdemo/interceptor/TestInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/com/caojian/bootdemo/service/TestService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/com/caojian/bootdemo/service/impl/TestServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/config/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/config/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/config/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/config/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/templates/html_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/templates/pages/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/boot-demo/target/classes/配置参考.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/.settings/.jsdtscope" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/WEB-INF/classes/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/WEB-INF/classes/hello/Hello.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/WEB-INF/classes/module/UserModule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/WEB-INF/classes/module/impl/UserModuleImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/WEB-INF/classes/pojo/UserDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/WebRoot/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/src/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/src/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/src/hello/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/src/module/UserModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/src/module/impl/UserModuleImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hello/src/pojo/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/.settings/.jsdtscope" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/controller/ApiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/controller/RegistServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/filter/EncodingFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/listener/AttributeListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/listener/ScopeListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/module/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/module/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/module/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/module/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/com/yuanben/jee/module/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/classes/db-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/lib/CaoJianDAO.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/lib/commons-dbcp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/lib/commons-pool.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/lib/fastjson-1.1.41.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/lib/jaxen-1.1-beta-7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.34.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/js/jquery-1.11.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/regist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/WebRoot/regist_result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/lib/CaoJianDAO.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/lib/commons-dbcp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/lib/commons-pool.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/lib/fastjson-1.1.41.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/lib/jaxen-1.1-beta-7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/lib/mysql-connector-java-5.1.34.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/controller/ApiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/controller/RegistServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/filter/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/listener/AttributeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/listener/ScopeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/module/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/module/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/module/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/module/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/com/yuanben/jee/module/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/jee01/src/db-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/FileRecv.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/logs/debug.log.2019-07-03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/logs/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/logs/info.log.2019-07-03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/logs/warn.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/src/main/java/com/caojian/spring/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/src/main/java/com/caojian/spring/beans/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/src/main/java/com/caojian/spring/beans/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/src/main/java/com/caojian/spring/config/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/classes/META-INF/maven/com.caojian/spring-01-ioc/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/classes/META-INF/maven/com.caojian/spring-01-ioc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/classes/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/classes/com/caojian/spring/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/classes/com/caojian/spring/beans/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/classes/com/caojian/spring/beans/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/classes/com/caojian/spring/config/SpringConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/spring-01-ioc-0.0.1-SNAPSHOT-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-01-ioc/target/spring-01-ioc-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/logs/debug.log.2019-07-03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/logs/debug.log.2019-07-04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/logs/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/logs/info.log.2019-07-03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/logs/info.log.2019-07-04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/logs/warn.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/src/main/java/com/caojian/spring/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/src/main/java/com/caojian/spring/aspect/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/src/main/java/com/caojian/spring/aspect/XmlCfgAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/src/main/java/com/caojian/spring/beans/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/src/main/java/com/caojian/spring/beans/XmlCfgService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/src/main/java/com/caojian/spring/config/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/src/main/resources/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/META-INF/maven/com.caojian/spring-02-aop/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/META-INF/maven/com.caojian/spring-02-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/com/caojian/spring/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/com/caojian/spring/aspect/MyAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/com/caojian/spring/aspect/XmlCfgAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/com/caojian/spring/beans/MyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/com/caojian/spring/beans/XmlCfgService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/com/caojian/spring/config/SpringConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-02-aop/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/logs/debug.log.2019-07-04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/logs/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/logs/info.log.2019-07-04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/logs/warn.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/logs/warn.log.2019-07-04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/src/main/java/com/caojian/spring/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/src/main/java/com/caojian/spring/config/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/src/main/java/com/caojian/spring/jdbc/DaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/src/main/resources/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/src/main/resources/config/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/src/main/resources/spring/spring-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/META-INF/maven/com.caojian/spring-02-aop/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/META-INF/maven/com.caojian/spring-02-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/com/caojian/spring/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/com/caojian/spring/config/SpringConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/com/caojian/spring/jdbc/DaoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/config/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-03-jdbc/target/classes/spring/spring-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/logs/debug.log.2019-07-04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/logs/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/logs/info.log.2019-07-04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/logs/warn.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/java/com/caojian/spring/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/java/com/caojian/spring/config/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/java/com/caojian/spring/dao/TestDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/java/com/caojian/spring/dao/impl/TestDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/java/com/caojian/spring/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/java/com/caojian/spring/service/impl/TestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/resources/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/resources/config/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/resources/spring/spring-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/src/main/resources/spring/spring-transaction.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/META-INF/maven/com.caojian/spring-02-aop/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/META-INF/maven/com.caojian/spring-02-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/com/caojian/spring/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/com/caojian/spring/config/SpringConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/com/caojian/spring/dao/TestDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/com/caojian/spring/dao/impl/TestDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/com/caojian/spring/service/TestService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/com/caojian/spring/service/impl/TestServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/config/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/spring/spring-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-04-transaction/target/classes/spring/spring-transaction.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/java/com/caojian/spring/controller/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/java/com/caojian/spring/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/java/com/caojian/spring/dao/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/java/com/caojian/spring/dao/impl/PersonDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/java/com/caojian/spring/dto/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/java/com/caojian/spring/service/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/java/com/caojian/spring/service/impl/PersonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/webapp/WEB-INF/pages/error/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/webapp/WEB-INF/pages/error/500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/webapp/WEB-INF/pages/error/defaultError.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/webapp/WEB-INF/pages/error/fileTooLarge.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/webapp/WEB-INF/pages/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/webapp/WEB-INF/spring/spring_db.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/spring-mvc Maven Webapp/src/main/webapp/WEB-INF/spring/spring_mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/phoneapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/AddContrastC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/AddContrastC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/DelContrastServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/DelContrastServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetContrastListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetContrastListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhoneListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhoneListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhonedDetailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhonedDetailServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/RegistServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/AddContrastDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/AddContrastDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/getContrastListDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/getContrastListDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/AddContrastServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/AddContrastServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/delContrastServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/delContrastServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/getContrastListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/getContrastListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/AddContrastC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/AddContrastC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/DelContrastServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/DelContrastServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/GetContrastListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/GetContrastListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/GetPhoneListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/GetPhoneListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/GetPhonedDetailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/GetPhonedDetailServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/RegistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/controller/RegistServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/AddContrastServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/AddContrastServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/PhoneDetailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/PhoneDetailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/PhoneServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/PhoneServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/delContrastServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/delContrastServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/getContrastListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ybveg/ls/phoneapp/module/service/impl/getContrastListServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -457,7 +53,41 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetContrastListServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhonedDetailServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/pojo/BaseResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -474,35 +104,35 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/PhoneappApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/PhoneDetailDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/PhoneDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/getContrastListDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/delContrastDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/AddContrastDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneDetailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/getContrastListServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/AddContrastServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/pojo/BaseResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/AddContrastServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/delContrastServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/DelContrastServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetContrastListServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/AddContrastC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhonedDetailServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhoneListServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/RegistServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/druid/pool/DruidDataSource.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-test.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application-prod.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/RegistServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/AddContrastC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/AddContrastServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/delContrastServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/DelContrastServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/getContrastListServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhoneListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/AddContrastDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/getContrastListDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetContrastListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhonedDetailServlet.java" />
       </list>
     </option>
   </component>
@@ -529,6 +159,194 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ybveg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ybveg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ls" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ybveg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ls" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="phoneapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ybveg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ls" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="phoneapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ybveg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ls" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="phoneapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="module" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ybveg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ls" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="phoneapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="module" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ybveg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ls" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="phoneapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="module" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ybveg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ls" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="phoneapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="module" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ybveg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ls" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="phoneapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="module" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="课件" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="课件" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spring-03-jdbc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="课件" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spring-03-jdbc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="课件" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spring-03-jdbc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="课件" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spring-03-jdbc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -588,18 +406,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="phoneapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="phoneapp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -611,14 +417,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/课件" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaProject\phoneapp\课件" />
       <recent name="D:\javaProject\phoneapp\src\main\resources" />
+      <recent name="D:\javaProject\phoneapp\课件" />
       <recent name="D:\javaProject\phoneapp\src\main\java\com\ybveg\ls\phoneapp\controller" />
       <recent name="D:\javaProject\phoneapp\src\main\java\com\ybveg\ls\phoneapp" />
     </key>
@@ -657,7 +463,8 @@
       <option name="presentableId" value="Default" />
       <updated>1562897639350</updated>
       <workItem from="1562897648141" duration="6168000" />
-      <workItem from="1562910533678" duration="7288000" />
+      <workItem from="1562910533678" duration="7534000" />
+      <workItem from="1563170814414" duration="11193000" />
     </task>
     <task id="LOCAL-00001" summary="spring-boot 项目">
       <created>1562924127158</created>
@@ -666,16 +473,31 @@
       <option name="project" value="LOCAL" />
       <updated>1562924127158</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring-boot 项目">
+      <created>1562925126720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562925126720</updated>
+    </task>
+    <task id="LOCAL-00003" summary="spring-boot 项目">
+      <created>1562925184574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562925184574</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13456000" />
+    <option name="totallyTimeSpent" value="24895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33099353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33693305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -685,8 +507,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946004" weight="0.90389013" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.7048055" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946004" weight="0.9036697" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.71215594" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -694,7 +516,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32951945" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053996" side_tool="true" weight="0.9485126" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32951945" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32912844" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32951945" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -718,26 +540,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="spring-boot 项目" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#4629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/bind/annotation/ResponseBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/pojo/Phone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -789,90 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/delContrastDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/PhoneDetailDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/PhoneDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/getContrastListDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/delContrastDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/AddContrastDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/AddContrastDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/PhoneService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -908,46 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/AddContrastServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/http/HttpRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -955,121 +633,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/pojo/BaseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/ApiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/delContrastServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/getContrastListServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/DelContrastServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetContrastListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/AddContrastC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhonedDetailServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhoneListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/RegistServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/druid/pool/DruidDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/ApiServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/druid/pool/DruidDataSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2475">
@@ -1087,6 +653,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/spring-03-jdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1097,31 +681,263 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="348">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="250">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/AddContrastDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/delContrastDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/AddContrastServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/delContrastServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/PhoneServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/AddContrastC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/DelContrastServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhoneListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/RegistServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="44" column="42" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.8.RELEASE/spring-jdbc-5.1.8.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="248" column="17" selection-start-line="248" selection-start-column="17" selection-end-line="248" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.8.RELEASE/spring-tx-5.1.8.RELEASE.jar!/org/springframework/dao/support/PersistenceExceptionTranslationInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/PhoneDetailDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/AddContrastDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/delContrastDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="-696">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/service/impl/getContrastListServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/getContrastListDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/dao/impl/PhoneDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetContrastListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/module/pojo/BaseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ybveg/ls/phoneapp/controller/GetPhonedDetailServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

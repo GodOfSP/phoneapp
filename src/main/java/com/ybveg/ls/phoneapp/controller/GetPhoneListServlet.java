@@ -3,6 +3,7 @@ package com.ybveg.ls.phoneapp.controller;
 
 import com.ybveg.ls.phoneapp.module.pojo.BaseResult;
 import com.ybveg.ls.phoneapp.module.service.PhoneService;
+import com.ybveg.ls.phoneapp.module.service.impl.PhoneServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,7 +26,7 @@ public class GetPhoneListServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
     @Autowired
-    PhoneService phoneService;
+    PhoneServiceImpl phoneService;
     @Autowired
     BaseResult baseResult;
     @PostMapping("/getPhoneList")

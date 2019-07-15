@@ -15,7 +15,7 @@ import java.util.Map;
 public class PhoneDetailServiceImpl implements PhoneDetailService {
 
     @Autowired
-    PhoneDetailDao phoneDetailDao;
+    PhoneDetailDaoImpl phoneDetailDao;
     @Override
     public  List<Map<String,Object>> getPhoneDetail(String phoneId) throws Exception {
         return phoneDetailDao.getPhoneDetail(phoneId);

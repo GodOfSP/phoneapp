@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 
 	@Autowired
-	UserDao dao ;
+	UserDaoImpl dao ;
 	@Override
 	public boolean saveUser(User user) throws Exception {
 		int r = dao.saveUser(user);

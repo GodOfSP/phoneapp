@@ -21,6 +21,12 @@ public class AddContrastDaoImpl implements AddContrastDao {
     @Override
     public String getContrastNum(String userId) throws Exception {
         String sql = "SELECT COUNT(1) FROM `t_relation_collection` WHERE userId =? GROUP BY userId ";
-        return jdbc.queryForObject(sql,String.class,new Object[]{userId});
+        String num = "";
+        try {
+            num = jdbc.queryForObject(sql,String.class,new Object[]{userId});
+        }catch (Exception e){
+
+        }
+        return num;
     }
 }
